@@ -1,0 +1,25 @@
+README for DataScienceatScale_Assignment3
+
+-------------------------------------------
+Assignment 3 for the Data Manipulation at Scale: Systems and Algorithms course, which is a part of the Data Science at Scale Coursera Specialization
+
+Implementing MapReduce algorithms in a Python framework
+-------------------------------------------
+
+MapReduce.py: the MapReduce class definition allowing us to simulate an MR job.
+
+inverted_index.py: mapper and reducer functions for building an inverted index. Given a set of documents, an inverted index is a dictionary where each word is associated with a list of the document identifiers in which that word appears.
+
+join.py: implements a relational join as a MR query
+
+friend_count.py: a MapReduce algorithm for counting the number of friends a person has
+
+asymmetric_friendships.py: an MR algorithm to check if a given relationship is one-directional, i.e. B is a friend of A, but A is not a friend of B. 
+
+unique_trims.py: trims a set of DNA sequences and outputs the unique resulting sequences
+
+multiply.py: a MapReduce algorithm for computing sparse matrix multiplication
+
+data/: a folder containing JSON files used as input for each of the 6 algorithms described above
+
+solutions/: a folder containing JSON files with the reducer output we should obtain by running the algorithms on the input data
